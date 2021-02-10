@@ -39,5 +39,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/gv.vim'
     " Sneak
     Plug 'justinmk/vim-sneak'
+    " Which key 
+    Plug 'liuchengxu/vim-which-key' 
 
 call plug#end()
