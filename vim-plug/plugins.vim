@@ -30,5 +30,24 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Colorizer
     Plug 'norcalli/nvim-colorizer.lua'
     Plug 'junegunn/rainbow_parentheses.vim'
+    " Startify
+    Plug 'mhinz/vim-startify'
+    " Git Integration
+    Plug 'mhinz/vim-signify' 
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
+    Plug 'junegunn/gv.vim'
+    " Sneak
+    Plug 'justinmk/vim-sneak'
+    " Which key 
+    Plug 'liuchengxu/vim-which-key' 
+    " Terminal
+    Plug 'voldikss/vim-floaterm'
 
 call plug#end()
+
+" Automatically install missing plugins on startup
+autocmd VimEnter *
+  \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+  \|   PlugInstall --sync | q
+  \| endif
