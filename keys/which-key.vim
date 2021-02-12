@@ -35,7 +35,8 @@ let g:which_key_map['r'] = [ ':Ranger'                    , 'ranger' ]
 let g:which_key_map['S'] = [ ':Startify'                  , 'start screen' ]
 let g:which_key_map['T'] = [ ':Rg'                        , 'search text' ]
 let g:which_key_map['v'] = [ '<C-W>v'                     , 'split right']
-let g:which_key_map['z'] = [ 'Goyo'                       , 'zen' ]
+let g:which_key_map['a'] = [ ':set rnu!'                 , 'relative line numbers' ]
+let g:which_key_map['n'] = [':set nu!'                   , 'no line numbers']
 
 " Group mappings
 

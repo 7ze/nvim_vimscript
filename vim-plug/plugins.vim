@@ -52,7 +52,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'voldikss/vim-floaterm'
     " Snippets
     Plug 'honza/vim-snippets'
-
+    " Codi
+    Plug 'metakirby5/codi.vim'
 
 call plug#end()
 
