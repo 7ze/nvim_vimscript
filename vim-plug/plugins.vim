@@ -8,14 +8,21 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    " Better commenting
+    Plug 'tpope/vim-commentary'
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " File Explorer
     Plug 'scrooloose/NERDTree'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
+    " Surround
+    Plug 'tpope/vim-surround'
     " Themes
     Plug 'joshdick/onedark.vim'
+    " Icons
+    Plug 'kyazdani42/nvim-web-devicons'
+    Plug 'ryanoasis/vim-devicons' 
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Status Line
@@ -43,6 +50,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'liuchengxu/vim-which-key' 
     " Terminal
     Plug 'voldikss/vim-floaterm'
+    " Snippets
+    Plug 'honza/vim-snippets'
+    " Codi
+    Plug 'metakirby5/codi.vim'
 
 call plug#end()
 
