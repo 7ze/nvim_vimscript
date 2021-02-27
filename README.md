@@ -1,3 +1,3 @@
 # Neovim
 
-Personal Neovim Config
+Neovim Config v1_stable
